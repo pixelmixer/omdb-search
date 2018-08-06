@@ -1,0 +1,20 @@
+:root {
+  --gradient-background: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%,rgba(0,0,0,.2) 100%); }
+
+.bg-gradient, .Avoxi--moviecard__overlay {
+  background: var(--gradient-background) no-repeat; }
+
+.h-v100, .Avoxi {
+  height: 100vh; }
+
+.h-v75 {
+  height: 75vh; }
+
+.Avoxi {
+  background: var(--gradient-background), url("/bg.gif"); }
+  .Avoxi--sticky-search {
+    position: sticky;
+    top: -40px;
+    z-index: 10; }
+  .Avoxi--moviecard {
+    cursor: pointer; }
